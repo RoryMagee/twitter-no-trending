@@ -1,5 +1,4 @@
-findTrending();
-function findTrending() {
+function removeTrending() {
     let trending = document.querySelector("div[data-testid='sidebarColumn']");
     if (trending) {
         trending.remove();
@@ -8,3 +7,5 @@ function findTrending() {
         findTrending();
     }, 1000);
 }
+
+removeTrending();
