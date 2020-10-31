@@ -4,7 +4,7 @@ function removeTrending() {
         trending.remove();
     }
     setTimeout(() => {
-        findTrending();
+        removeTrending();
     }, 1000);
 }
 
