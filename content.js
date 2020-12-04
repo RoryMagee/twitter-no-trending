@@ -5,7 +5,7 @@ function removeTrending() {
     }
     setTimeout(() => {
         removeTrending();
-    }, 1000);
+    }, 200);
 }
 
 removeTrending();
